@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dad20dbc-5cda-4d23-9102-727e03a217b9" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="ProjectId" id="1TPVKKexG7shCjuf46phLrySQN9" />
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/channle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/channle" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Test.TestNewChannleTimeout in go-study/src/channle">
+    <configuration name="TestNewChannleTimeout in go-study/src/channle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-study" />
+      <working_directory value="$PROJECT_DIR$/src/channle" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go-study/src/channle" />
+      <pattern value="^TestNewChannleTimeout$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestNewChannleTimeout1 in go-study/src/channle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="go-study" />
+      <working_directory value="$PROJECT_DIR$/src/channle" />
+      <parameters value="GODEBUG=gctrace=1" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="go-study/src/channle" />
+      <pattern value="^TestNewChannleTimeout1$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Test.TestNewChannleTimeout in go-study/src/channle" />
+      <item itemvalue="Go Test.TestNewChannleTimeout1 in go-study/src/channle" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestNewChannleTimeout in go-study/src/channle" />
+        <item itemvalue="Go Test.TestNewChannleTimeout1 in go-study/src/channle" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
