@@ -1,18 +1,19 @@
 package channle
 
 import (
+	"fmt"
 	"os"
 	"time"
 )
 // 设置time的延时队列
 func NewChannleTimeout()  {
-	c := make(chan int, 100)
+	c := make(chan int, 2)
 	go func() {
-		for i := 0; i < 10; i++ {
+		for i := 0; i < 100; i++ {
 			c <- i
-			time.Sleep(time.Second)
+			time.Sleep(time.Second * 10)
 		}
-
+		time.Sleep(time.Second * 100)
 		os.Exit(0)
 	}()
 
@@ -20,6 +21,7 @@ func NewChannleTimeout()  {
 		select {
 		case n := <-c:
 			println(n)
+			fmt.Println(time.Now())
 		case <-timeAfter(time.Second * 2):
 
 		}
